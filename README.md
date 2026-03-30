@@ -54,8 +54,8 @@ This will create a `data/humaneval/` folder (or another path you use in notebook
 Model weights are **not** stored in this repository.  
 They are downloaded automatically from Hugging Face when you run the notebooks.
 
-- DiffuCoder‑7B‑Instruct – [`ByteDance-Seed/DiffuCoder-7B-Instruct`](https://huggingface.co/apple/DiffuCoder-7B-Instruct)
-- DreamCoder‑7B – [`<add exact HF repo id>`](https://huggingface.co/Dream-org/Dream-Coder-v0-Instruct-7B)
+- DiffuCoder‑7B‑Instruct – [`apple/DiffuCoder-7B-Instruct`](https://huggingface.co/apple/DiffuCoder-7B-Instruct)
+- DreamCoder‑7B – [`Dream-org/Dream-Coder-v0-Instruct-7B`](https://huggingface.co/Dream-org/Dream-Coder-v0-Instruct-7B)
 - Stable‑DiffCoder‑8B‑Instruct – [`ByteDance-Seed/Stable-DiffCoder-8B-Instruct`](https://huggingface.co/ByteDance-Seed/Stable-DiffCoder-8B-Instruct)
 
 Example loading (used in the notebooks):
@@ -107,6 +107,9 @@ The notebook will write aggregated metrics to CSV files under `model_tests/resul
 - Notebooks are intended to be executable top‑to‑bottom in a fresh environment.
 - Key hyperparameters (steps, max_new_tokens, temperature, etc.) and metrics are stored in the CSV files under `model_tests/results/`.
 - Due to stochastic sampling, reported pass@1 may vary slightly between runs.
+
+## Acknowledgements
+This research was carried out using the HSE University supercomputer complex.
 
 ## Citation
 
